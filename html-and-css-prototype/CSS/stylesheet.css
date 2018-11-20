@@ -39,4 +39,54 @@ h1 {
   light grey: #eaeaea;
 */
 
+
 /* Your CSS code goes here */
+
+/* ========================================
+Image Prototype Container
+=========================================== */
+
+.prototype-container {
+	max-width: 303px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+
+/* ========================================
+Progress Bubble
+=========================================== */
+
+.progress-bubble {
+	background-color: #424242;
+	padding: 13px 0;
+	position: relative;
+	border-radius: 4px;
+	width: 290px;
+	margin: 0 auto;
+}
+
+.bottom.arrow.right {
+	border-style: solid;
+	position: absolute;
+	border-color: #424242 transparent transparent transparent;
+	border-width: 10px 8px 0px 8px;
+	bottom:-7px;
+	right: 35px;
+}
+
+.progress-bubble p {
+	color: #eaeaea;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.progress-bubble span {
+	font-weight:500;
+	/* alternate vertical alignment for numbers  */
+	font-variant-numeric: oldstyle-nums;
+}
+
+/* ========================================
+Progress Bar
+=========================================== */
