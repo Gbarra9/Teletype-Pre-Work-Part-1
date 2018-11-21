@@ -102,7 +102,7 @@ Progress Bar
 	width:90%;
 	margin:0 auto;
 	/* bottom box shadow */
-	box-shadow: 0px 2px 0px 0px rgba(234,234,234,0.24); 
+	box-shadow: 0px 2px 0px 0px rgba(234,234,234,0.24);
 }
 
 .progress-bar-container {
@@ -115,4 +115,107 @@ Progress Bar
 	background-color: #EF5F3C;
 	width:75%;
 	padding:5px;
+}
+
+/* ========================================
+Project Body
+=========================================== */
+/* .text-container {
+	padding:10px;
+} */
+.project-text-one {
+		margin: 14px 35px 14px 0;
+}
+
+.project-text-one, .project-text-two, .project-text-three,.project-text-four {
+	font-size: 13px;
+	color: #777;
+	font-weight: 400;
+
+}
+
+.project-text-two {
+	margin-right:40px;
+}
+.project-text-two span{
+	font-weight: bold;
+	font-variant-numeric: oldstyle-nums;
+}
+.project-text-three {
+	margin-right:30px;
+}
+.project-text-four {
+	margin-right:160px;
+	margin-bottom: 15px;
+}
+
+.project-text-one span.highlight-orange {
+	color:#EF5F3C;
+	font-weight: 600;
+}
+
+/* ========================================
+Grid Container
+=========================================== */
+
+.grid {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+.user-input, .btn-primary, .input-text{
+	width:40%;
+	height:50%;
+	border-radius: 4px;
+	font-size: 18px;
+	padding:10px ;
+
+}
+
+.user-input{
+	display:flex;
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+	font-weight: 600;
+}
+
+span.dollar-sign {
+	margin-right: 5px;
+	color: #969696;
+	/* include fallback fonts in case local machine doesn't support first font*/
+	font-family:"rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-weight: light;
+}
+
+.btn-primary{
+	text-align: center;
+	border: 1px solid #1CBC2C;
+	background-color: #1CBC2C;
+
+}
+
+.btn-primary a {
+	text-decoration: none;
+	font-weight: 500;
+	color: #fff;
+}
+
+.input-text{
+	font-size: 13px;
+	padding:5px 30px 15px 0;
+	font-style: italic;
+	color: #20A1D4;
+	font-variant-numeric: oldstyle-nums;
+}
+
+/* empty text added to so justify-content: space-evenly can be used */
+.empty-text {
+	width:40%;
+	height:50%;
+	border-radius: 4px;
+	font-size: 13px;
+	padding:10px ;
 }
